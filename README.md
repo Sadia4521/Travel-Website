@@ -1,6 +1,6 @@
 # Travel-Website
 Travel Website is a modern, responsive, and visually engaging platform designed to inspire and assist users in exploring the world. Built using HTML, CSS, and JavaScript, the site provides smooth navigation and interactive animations to create an immersive user experience.
-Key Features:
+<b>Key Features:</b>
 
 Elegant Navigation Bar – Quick access to Home, About, Popular, and Explore sections.
 
@@ -18,7 +18,7 @@ Newsletter Subscription – A call-to-action for users to stay updated with the 
 
 Footer with Social Links – Includes quick links and integrated icons for Facebook, Instagram, Twitter, and YouTube.
 
-Design Highlights:
+<b>Design Highlights:</b>
 
 Black-themed background for elegance.
 
@@ -28,7 +28,7 @@ Animated background zoom effect for the hero section.
 
 Mobile-friendly and smooth scrolling enabled.
 
-Technology Stack:
+<b>Technology Stack:</b>
 
 HTML5 – Website structure
 
