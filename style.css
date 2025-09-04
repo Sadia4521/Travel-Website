@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:hsl(0, 0%, 95%);
+}
+body{
+    background-color: black;
+}
+section{
+    background-image: url("/pic/natureWalk.png");
+    background-size: cover;
+    animation: zoomBg 20s infinite alternate ease-in-out;
+}
+html {
+  scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.nav-bar{
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.nav-name{
+    padding: 20px;
+    padding-left: 200px;
+    font-size: 30px;
+}
+.nav-menu{
+    padding-left: 250px;
+    font-size: 20px;
+}
+.a-bottom{
+    text-decoration: none;
+    padding: 10px;
+}
+.a-bottom:hover{
+    border-bottom: 3px solid hsl(0, 0%, 95%);
+}
+#home{
+    height: 200px;
+    padding: 150px;
+    padding-top: 40px;
+}
+.about{
+    height: 500px;
+    width: 400px;
+}
+.text-head{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    animation: slideIn 1s ease-out;
+}
+.text-body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    animation: slideIn 1s ease-out;
+}
+.btn{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:grey;
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 2px;
+    border: 2px solid grey;
+    transition: all 0.3s ease-in-out; /* smooth transition */
+    animation: slideIn 1s ease-out;
+    color: hsl(0, 0%, 95%);
+}
+.btn:hover {
+    background-color: rgb(126, 74, 7);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+.pic{
+    display: flex;
+}
+.pic-country{
+    height: 120px;
+    width: 200px;
+    margin: 20px;
+    margin-top: 30px;
+    background-color: blue;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: slideIn 1s ease-out;
+}
+.pak{
+    background-image: url("/pic/pakistan.jpg");
+    background-size: cover;
+    margin-left: 200px;
+}
+.bangkok{
+    background-image: url("/pic/bangkok.jpg");
+    background-size: cover;
+}
+.istanbul{
+    background-image: url("/pic/istanbul.jpg");
+    background-size: cover;
+}
+.dubai{
+    background-image: url("/pic/dubai.webp");
+    background-size: cover;
+}
+#about{
+    height: 300px;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+}
+.about-pic{
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+    background-image: url("/pic/about.webp");
+    background-size: cover;
+    margin-left: 100px;
+}
+#popular{
+    height: 610px;
+}
+.text-heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    padding: 10px;
+}
+.pop-text{
+    text-align: center;
+    padding-top: 50px;
+}
+.popular-s{
+    display: flex;
+    margin-left: 120px;
+}
+.popular-div{
+    height: 320px;
+    width: 300px;
+    margin: 5px;
+    /* background-color:#FFFDD0; */
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px;
+}
+.pop-pic{
+    height: 280px;
+    width: 300px;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.pop-pic1{
+    background-image: url("/pic/pak-exp.webp");
+}
+.pop-pic2{
+    background-image: url("/pic/burj.jpg");
+}
+.pop-pic3{
+    background-image: url("/pic/mosque.jpg");
+}
+.pop-text1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    /* color: black; */
+}
+.pic-country:hover, .pop-pic:hover {
+    transform: scale(1.05); /* zoom in slightly */
+    box-shadow: 0 5px 15px rgba(255,255,255,0.3);
+}
+#explore{
+    height: 600px;
+}
+.explore{
+    height: 450px;
+    background-image: url("/pic/explore.PNG");
+    background-size: cover;
+}
+.explore-text-heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    padding-top: 350px;
+    padding-left: 200px;
+}
+.explore-text-body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 420px;
+}
+#subscribe{
+    height: 400px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.subscribe-pic{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    background-image: url("/pic/d.jpg");
+    background-size: cover;
+    margin-right: 100px;
+}
+.btn-s{
+    width: 250px;
+}
+footer{
+    background-color: #332f2f;
+    height: 250px;
+}
+.footer-div1{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.footer-main{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 200px;
+	padding-top: 30px;
+    padding-left: 30px;
+    font-size: 23px;
+}
+.footer-table{
+	text-align: left;
+	padding-top: 30px;
+	margin-right: 50px;
+	padding-bottom: 50px;
+}
+.footer-div2{
+    height: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+section {
+    background-image: url("/pic/natureWalk.png");
+    background-size: cover;
+    animation: zoomBg 20s infinite alternate ease-in-out;
+}
+@keyframes zoomBg {
+    from { background-size: 100%; }
+    to { background-size: 110%; }
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease-in-out;
+}
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fade-text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease-in-out;
+}
+.fade-text.show {
+  opacity: 1;
+  transform: translateY(0);
+}
