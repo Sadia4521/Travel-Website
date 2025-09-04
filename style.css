@@ -7,7 +7,7 @@ body{
     background-color: black;
 }
 section{
-    background-image: url("/pic/natureWalk.png");
+    background-image: url("pic/natureWalk.png");
     background-size: cover;
     animation: zoomBg 20s infinite alternate ease-in-out;
 }
@@ -94,20 +94,20 @@ a{
     animation: slideIn 1s ease-out;
 }
 .pak{
-    background-image: url("/pic/pakistan.jpg");
+    background-image: url("pic/pakistan.jpg");
     background-size: cover;
     margin-left: 200px;
 }
 .bangkok{
-    background-image: url("/pic/bangkok.jpg");
+    background-image: url("pic/bangkok.jpg");
     background-size: cover;
 }
 .istanbul{
-    background-image: url("/pic/istanbul.jpg");
+    background-image: url("pic/istanbul.jpg");
     background-size: cover;
 }
 .dubai{
-    background-image: url("/pic/dubai.webp");
+    background-image: url("pic/dubai.webp");
     background-size: cover;
 }
 #about{
@@ -120,7 +120,7 @@ a{
     height: 400px;
     width: 400px;
     border-radius: 30px;
-    background-image: url("/pic/about.webp");
+    background-image: url("pic/about.webp");
     background-size: cover;
     margin-left: 100px;
 }
@@ -158,13 +158,13 @@ a{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .pop-pic1{
-    background-image: url("/pic/pak-exp.webp");
+    background-image: url("pic/pak-exp.webp");
 }
 .pop-pic2{
-    background-image: url("/pic/burj.jpg");
+    background-image: url("pic/burj.jpg");
 }
 .pop-pic3{
-    background-image: url("/pic/mosque.jpg");
+    background-image: url("pic/mosque.jpg");
 }
 .pop-text1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -180,7 +180,7 @@ a{
 }
 .explore{
     height: 450px;
-    background-image: url("/pic/explore.PNG");
+    background-image: url("pic/explore.PNG");
     background-size: cover;
 }
 .explore-text-heading{
@@ -206,7 +206,7 @@ a{
     height: 400px;
     width: 400px;
     border-radius: 10px;
-    background-image: url("/pic/d.jpg");
+    background-image: url("pic/d.jpg");
     background-size: cover;
     margin-right: 100px;
 }
@@ -264,7 +264,7 @@ footer{
     }
 }
 section {
-    background-image: url("/pic/natureWalk.png");
+    background-image: url("pic/natureWalk.png");
     background-size: cover;
     animation: zoomBg 20s infinite alternate ease-in-out;
 }
